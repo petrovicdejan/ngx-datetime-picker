@@ -7,7 +7,7 @@
 		<div class="ngx-picker">
 			<input type="text" [disabled]="disableInput || disablePicker" [placeholder]="placeholder" (click)="pickerVisible = !pickerVisible" [value]="formattedDate" (change)="setDateTime($event.target.value)"
 			/>
-			<button type="button" [disabled]="disableButton || disablePicker" (click)="pickerVisible = !pickerVisible">
+			<button type="button" class="btn btn-outline-secondary" [disabled]="disableButton || disablePicker" (click)="pickerVisible = !pickerVisible">
 				<span class="oi oi-calendar"></span>
 				<span class="oi oi-chevron-bottom"></span>
 				</button>
