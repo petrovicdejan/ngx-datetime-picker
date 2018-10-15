@@ -147,9 +147,9 @@
   background-color: #eee; }
 
 .time--value {
-  width: 2.66em;
-  font-size: 1em;
-  padding: .5em 0;
+  width: 2em;
+  font-size: 0.8em;
+  padding: .4em 0;
   text-align: center;
   color: #000; }
   .time--value__selected {
